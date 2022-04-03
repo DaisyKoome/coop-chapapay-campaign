@@ -8,9 +8,11 @@ body {
     margin:0;
     padding:0;
     border:0;
-    background-color: #e9ece7;
-    font-family: 'Hoftype - EpocaClassic-Light';
-    src: url('fonts/Hoftype - EpocaClassic-Light.otf') format('otf');
+    /* font-family: 'Hoftype - EpocaClassic-Light' !important; */
+    /* src: url('fonts/Hoftype - EpocaClassic-Light.otf') format('otf') !important; */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    /* 1 */
+    /* line-height: 1.5; */
     font-weight: 500;
 }
 
@@ -22,7 +24,105 @@ body {
     margin-top: 0px;
 }
 
+.main-wrapper{
+    background-color: #e9ece7;
+}
+
 .container-md .img1 {
     margin-top: 40px;
-    margin-bottom: 40px; 
+    margin-bottom: 20px; 
+}
+
+.main-heading {
+    font-size: large;
+    color: #00442E;
+    font-weight: 900;
+}
+
+.main-heading-p {
+    font-weight: normal;
+    color: black;
+}
+
+.form {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form2 {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    border-radius: 0px;
+}
+
+.form3 {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+}
+
+input.form-control {
+    background-color: #EDEDED;
+    color: #717070;
+    border: none !important;
+}
+
+select.form-select {
+    background-color: #EDEDED;
+    color: #717070;
+    border: none !important;
+}
+
+select.form-select:active, select.form-select:focus {
+    outline: #818a91 !important;
+    box-shadow: none !important;
+    border: 1px solid #818a91 !important;
+    color: #717070;
+}
+
+input.form-control:active, input.form-control:focus {
+    outline: #818a91 !important;
+    box-shadow: none !important;
+    border: 1px solid #818a91 !important;
+    color: #717070;
+}
+
+.get-started {
+    margin-left: 50px;    
+    color: #00442E;
+}
+
+.form-label {
+    color: #00442F;
+}
+
+.btn-success {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #78B52E;
+    color: #ffffff;
+    border-color: #78B52E !important;
+}
+
+.btn-success:active, .btn-success:focus {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #78B52E !important;
+    color: #ffffff;
+    border-color: 2px solid black !important;
+    outline: #818a91 !important;
+    box-shadow: none !important;
 }
