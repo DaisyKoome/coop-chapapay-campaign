@@ -24,8 +24,22 @@ body {
     margin-top: 0px;
 }
 
+.wrapper2 {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    position: relative;
+    margin-top: 50px;
+}
+
 .main-wrapper{
     background-color: #e9ece7;
+}
+
+.second-wrapper{
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .container-md .img1 {
@@ -33,15 +47,31 @@ body {
     margin-bottom: 20px; 
 }
 
-.main-heading {
-    font-size: large;
+h1.main-heading {
+    font-size: xx-large;
     color: #00442E;
     font-weight: 900;
+    line-height: 1.2 rem;
+}
+
+h1.second-heading {
+    font-size: xx-large;
+    color: #00442E;
+    font-weight: 900;
+    line-height: 1.2 rem;
+}
+
+.second-wrapper p {
+    margin-bottom: 0px !important;
+    font-weight: normal;
 }
 
 .main-heading-p {
     font-weight: normal;
     color: black;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
 }
 
 .form {
