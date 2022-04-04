@@ -40,6 +40,14 @@ body {
     background-color: transparent;
     margin-top: 50px;
     margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.third-wrapper{
+    background-color: #00442E;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 50px;
 }
 
 .container-md .img1 {
@@ -58,7 +66,30 @@ h1.second-heading {
     font-size: xx-large;
     color: #00442E;
     font-weight: 900;
-    line-height: 1.2 rem;
+    line-height: 1.5 rem;
+}
+
+h1.fourth-heading {
+    font-size: xx-large;
+    color: white;
+    font-weight: 900;
+    line-height: 1.5 rem;
+}
+
+h2.third-heading {
+    font-size: x-large;
+    color: #00442E;
+    font-weight: 700;
+    line-height: 1.6 rem;
+    margin-top: 10px;
+}
+
+h2.fifth-heading {
+    font-size: x-large;
+    color: white;
+    font-weight: 700;
+    line-height: 1.6 rem;
+    margin-top: 10px;
 }
 
 .second-wrapper p {
@@ -155,4 +186,23 @@ input.form-control:active, input.form-control:focus {
     border-color: 2px solid black !important;
     outline: #818a91 !important;
     box-shadow: none !important;
+}
+
+ol {
+    padding-left: 20px !important;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+ul {
+    padding-left: 20px !important;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.green {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
